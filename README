@@ -1,0 +1,12 @@
+0. only proceed if you have a light sensor on device
+	- tip: light sensor is available if you have auto brightness feature
+
+1. go to bin, install the apk file (or even better, fire a pull request, update, generate a better apk)
+
+2. Connect to the network where the server is running (refer django-sensor-server repo)
+
+3. provide a name in the UI and the server url 
+
+4. click on post data to send data to server
+
+5. check the sent data at /post/monitor 
